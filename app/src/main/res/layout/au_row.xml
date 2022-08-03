@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#504D4D"
+
+            >
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/img"
+                android:layout_margin="5dp"></ImageView>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Tên : "
+                android:id="@+id/txn"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@id/img"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:textColor="@color/white"
+                android:text="Name Aurorians"
+                android:layout_toRightOf="@+id/txn"
+                android:layout_margin="5dp"></TextView>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Vai trò : "
+                android:id="@+id/txvt"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:layout_below="@id/txn"
+                android:layout_toRightOf="@id/img"></TextView>
+
+            <TextView
+                android:id="@+id/Class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txn"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/txvt"
+                android:text="Class Aurorians"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Hệ : "
+                android:id="@+id/txh"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:layout_below="@id/txvt"
+                android:layout_toRightOf="@id/img"></TextView>
+
+            <TextView
+                android:id="@+id/Ele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txvt"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/txh"
+                android:text="Ele Aurorians"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:id="@+id/Ele1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txvt"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/Ele"
+                android:text="Ele Aurorians"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/star"
+                android:text="0*"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@id/txs"
+                android:layout_below="@id/img"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/txs"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img"
+                android:layout_marginLeft="20dp"
+                android:text="Bậc:"
+                android:textColor="@color/white"></TextView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
